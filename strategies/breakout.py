@@ -59,7 +59,7 @@ def max_dd(DF):
 
 tickers = ["MSFT","AAPL","FB","AMZN","INTC", "CSCO","VZ","IBM","TSLA","AMD"]
          
-key_path = "D:\\Udemy\\Quantitative Investing Using Python\\1_Getting Data\\AlphaVantage\\key.txt"
+key_path = "C:\\Users\\Randy666\\Documents\\projects\\algorithmic_trading\\alpha_vantage_key.txt"
 ts = TimeSeries(key=open(key_path,'r').read(), output_format='pandas')
 
 ohlc_intraday = {} # directory with ohlc value for each stock   
